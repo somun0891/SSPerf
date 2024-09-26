@@ -5,11 +5,11 @@
 --WHILE DATEADD(SECOND,120,@T)>GETDATE()
 --SET @F=POWER(2,30);
 
---CPU stress test - https://sqlworldwide.com/stress-test-using-sqlcmd-utility/
+--CPU stress test - https://sqlworldwide.com/
 
 /* List of possible issues with high CPU */
 
---Wait statistics of the session
+--Wait stats of the session
 --Scheduler workload
 --IO stalling queries
 --Memory grant for session
