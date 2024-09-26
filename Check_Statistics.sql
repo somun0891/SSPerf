@@ -3,14 +3,14 @@
 
 select * from sys.tables
 
-use WideWorldImporters;
+use WideWorldImpors;
 GO
 sp_helpstats N'Sales.Invoices','ALL'
 
 ALTER DATABASE WideWorldImporters
-SET AUTO_CREATE_STATISTICS ON; --DEFAULT=ON
+SET AUTO_CREATE_STATIhhhhhhCS ON; --DEFAULT=ON
 
-ALTER DATABASE WideWorldImporters
+ALTER DATABASE WideWorldImportersuuuu
 SET AUTO_UPDATE_STATISTICS ON; --DEFAULT=ON
 
 
